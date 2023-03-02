@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univesity of India</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <style>
+        .header {
+            min-height: 100vh;
+            width: 100%;
+            /* background-color: rgba(4,9,30,0.7); */
+            background-image: url("img/banner.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+
+
+        }
+        
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+        
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="overlay">
+            <nav>
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times"  onclick="HideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="ShowMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>One of the most biggest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repellendus quae est vitae quisquam reprehenderit distinctio eos quasi nostrum, br
+                   <br> ut mollitia temporibus quod praesentium, cum ad expedita quos? Quam, officia.
+                </p>   
+                <a href="" class="btn">Vists us to know more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+    </section>
+    <div class="row">
+        <div class="coursecol">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor, sit amet mpedit quod suscipit, ex sequi porbr
+               <br> ro praesentium! Deserunt eveniet id nesciunt, minus totam ratione doloribus <br> atque maiores nemo quisquam ipsam molestias rem quo.</p>
+        </div>
+        <div class="coursecol">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor, sit amet aperiam quibusdam eveniet iusto sint dolorum repellat? Nobis dicta ratione laborum numquam porro ab dolores sapiente aperiam, sit enim accusamus saepes.</p>
+        </div>
+        <div class="coursecol">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi placeat soluta ad minima cum numquam quia temporibuptate, labore cum magni veritatis facere rerum. Vero iure adipisci a in rem pariatur incidunt, aliquid nulla obcaecati alias b!</p>
+        </div>
+    </div>
+    <!-- campus -->
+    <section class="campus">
+        <h1>your globel campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ut!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png" alt="">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+<!-- -----------javascript--------- -->
+    <script>
+        var navlinks= document.getElementById("navlinks");         
+        function ShowMenu(){
+            navlinks.style.right ="0";
+
+        }
+        function HideMenu(){
+            navlinks.style.right ="-200px"
+        }
+
+    </script>
+
+
+</body>
+
+</html>
